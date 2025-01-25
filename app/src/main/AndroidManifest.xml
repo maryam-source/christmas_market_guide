@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_xmas_mrkt"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_xmas_mrkt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChristmasMarketGuide"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Market Detail Activity -->
+        <activity
+            android:name=".MarketDetailActivity"
+            android:exported="false" />
+
+        <!-- Vendor Detail Activity -->
+        <activity
+            android:name=".VendorDetailActivity"
+            android:exported="false" />
+
+        <!-- Maps Activity -->
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+
+        <!-- Detail Activity -->
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="<insert your key>" />
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dresden Christmas Markets Guide</string>
+    <string name="striezelmarkt_description">The Striezelmarkt, dating back to 1434, is one of Germanys oldest and most famous Christmas markets. It offers traditional crafts, festive food, and a stunning holiday atmosphere in the heart of Dresden.</string>
+    <string name="neustadt_market_description">The Neustadt Market features a bohemian vibe with unique handmade crafts, international cuisine, and a lively, modern twist on the traditional Christmas market experience.</string>
+    <string name="altmarkt_description">The Altmarkt Christmas Market is a classic holiday destination with beautiful decorations, traditional stalls, and delicious Saxon specialties in the historic city center.</string>
+    <string name="frauenkirche_market_description">Set against the backdrop of the iconic Frauenkirche, this market provides a magical setting for Christmas shopping, offering artisanal gifts and festive treats.</string>
+    <string name="hauptstrasse_description">The Hauptstrasse Market is a family-friendly Christmas market located along a charming pedestrian street, featuring international flavors, crafts, and a warm holiday ambiance.</string>
+    <string name="market_description">%1$s is a popular Christmas market in Dresden.</string>
+</resources>

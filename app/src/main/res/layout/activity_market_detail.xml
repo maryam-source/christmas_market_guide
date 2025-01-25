@@ -1,0 +1,50 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Image -->
+        <ImageView
+            android:id="@+id/marketHeaderImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Market Image"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="80dp"
+            android:elevation="8dp"
+            android:background="@drawable/image_background" />
+
+        <!-- Market Description -->
+        <TextView
+            android:id="@+id/marketInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Market details will appear here."
+            android:textSize="16sp"
+            android:textColor="@color/text_primary"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="16dp"
+            android:letterSpacing="0.02" />
+
+        <!-- Get Directions Button -->
+        <Button
+            android:id="@+id/getDirectionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Directions"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/accent_color"
+            android:elevation="6dp" />
+    </LinearLayout>
+</ScrollView>
